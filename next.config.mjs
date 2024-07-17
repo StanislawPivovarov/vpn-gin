@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 import path from 'path';
 
+const __dirname = path.dirname(__filename);
+
 const nextConfig = {
   output: 'export',
   reactStrictMode: false,
