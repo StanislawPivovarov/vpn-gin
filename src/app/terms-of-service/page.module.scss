@@ -1,0 +1,26 @@
+.wrapper_privacy {
+ width: 90%;
+ border-radius: 40px;
+ background-color: #fff;
+ margin-top: 120px;
+ position: relative;
+ z-index: 1;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.contents {
+ padding: 70px;
+ border-radius: 40px;
+ background-color: #fff;
+
+ h1 {
+  font-family: "Montserrat";
+ }
+
+ p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+}
