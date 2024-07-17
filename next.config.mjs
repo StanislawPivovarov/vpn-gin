@@ -14,9 +14,6 @@ const nextConfig = {
     unoptimized: true,
     domains: ['i.postimg.cc'],
   },
-  env: {
-    REACT_BASE_API_URL: process.env.REACT_BASE_API_URL,
-  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
