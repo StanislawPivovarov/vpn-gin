@@ -6,7 +6,7 @@ const nextConfig = {
   output: 'export',
   reactStrictMode: false,
   trailingSlash: true,
-  distDir: 'build',
+  distDir: 'out',
 
   experimental: {
     appDir: true,
