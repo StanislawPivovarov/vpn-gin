@@ -16,7 +16,7 @@ const Page = () => {
      </div>
 
      <div>
-      <Link className={headerstyle.links} href={"/"}>Главное</Link>
+      <Link className={headerstyle.links} href={"/"}>Главная</Link>
      </div>
     </div>
    </div>

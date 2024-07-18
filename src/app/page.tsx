@@ -121,7 +121,7 @@ export default function Home() {
           </div>
 
           <div className={styles.header_mobile}>
-            <Button className={headerstyle.links} href={"/"}>Главное</Button>
+            <Button className={headerstyle.links} href={"/"}>Главная</Button>
             <Button className={headerstyle.links} onClick={() => adv.scrollIntoView({ behavior: "smooth" })}>С чего начать</Button>
             <Button className={headerstyle.links} onClick={() => tariffs.scrollIntoView({ behavior: "smooth" })}>Тарифы</Button>
           </div>
@@ -144,7 +144,7 @@ export default function Home() {
                   <h2>
                     5 дней тест-драйва за наш счет
                   </h2>
-                  <Button className={styles.next} target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Попробовать бесплатно</Button>
+                  <Button className={styles.next} target="_blank" href="https://t.me/vpn_gin_bot?start=trial">Попробовать бесплатно</Button>
                 </div>
               </div>
               <Image className={styles.scroll_anim} src={scroll} alt="scroll" />
@@ -204,7 +204,7 @@ export default function Home() {
 
                   <div className={styles.connection_step}>
                     <Image className={styles.connection_images} src={click} alt="click" />
-                    <Button target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH" className={styles.connection_step_button}>Попробовать бесплатно</Button>
+                    <Button target="_blank" href="https://t.me/vpn_gin_bot?start=trial" className={styles.connection_step_button}>Попробовать бесплатно</Button>
                   </div>
                   <div className={styles.connection_step}>
                     <Image className={styles.connection_images} src={telegram} alt="telegram" />
@@ -228,7 +228,7 @@ export default function Home() {
                   <div className={styles.tarrifs_item}>
                     <h2>5 дней</h2>
                     <h2>0₽</h2>
-                    <Button target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
+                    <Button target="_blank" href="https://t.me/vpn_gin_bot?start=trial">Получить</Button>
                   </div>
                   <div className={styles.tarrifs_item}>
                     <h2>1 месяц</h2>
