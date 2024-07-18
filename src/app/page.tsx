@@ -203,15 +203,24 @@ export default function Home() {
                 <div className={styles.connection_steps}>
 
                   <div className={styles.connection_step}>
+                    <div style={{display: 'flex', flexDirection: 'row'}}>
+                      <p className={styles.step}>1.</p>
                     <Image className={styles.connection_images} src={click} alt="click" />
+                    </div>
                     <Button target="_blank" href="https://t.me/vpn_gin_bot?start=trial" className={styles.connection_step_button}>Попробовать бесплатно</Button>
                   </div>
                   <div className={styles.connection_step}>
+                  <div style={{display: 'flex', flexDirection: 'row'}}>
+                  <p className={styles.step}>2.</p>
                     <Image className={styles.connection_images} src={telegram} alt="telegram" />
+                    </div>
                     <p className={styles.connection_step_text}>Перейдите в Telegram</p>
                   </div>
                   <div className={styles.connection_step}>
+                  <div style={{display: 'flex', flexDirection: 'row'}}>
+                  <p className={styles.step}>3.</p>
                     <Image className={styles.connection_images} src={logo} alt="logo" />
+                  </div>
                     <p className={styles.connection_step_text}>Запустите бот</p>
                   </div>
                 </div>
