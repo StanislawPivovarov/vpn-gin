@@ -229,7 +229,6 @@ export default function Home() {
           </Fade>
           <Fade>
 
-
             <div id="tariffs" className={styles.tariffs}>
               <div className={styles.tariffs_wrapper}>
                 <h1>Тарифы</h1>
@@ -240,8 +239,13 @@ export default function Home() {
                     <Button target="_blank" href="https://t.me/vpn_gin_bot?start=trial">Получить</Button>
                   </div>
                   <div className={styles.tarrifs_item}>
-                    <h2>1 месяц</h2>
+                    <h2>До 10Мб/с</h2>
                     <h2>135 ₽ / мес.</h2>
+                    <Button target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
+                  </div>
+                  <div className={styles.tarrifs_item}>
+                    <h2>Для YouTube</h2>
+                    <h2>350 ₽ / мес.</h2>
                     <Button target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
                   </div>
                 </div>
@@ -249,7 +253,6 @@ export default function Home() {
             </div>
           </Fade>
           <Fade>
-
 
             <div className={styles.faq}>
               <Collapse
