@@ -236,17 +236,17 @@ export default function Home() {
                   <div className={styles.tarrifs_item}>
                     <h2>5 дней</h2>
                     <h2>0₽</h2>
-                    <Button target="_blank" href="https://t.me/vpn_gin_bot?start=trial">Получить</Button>
+                    <Button style={{padding: 7}} target="_blank" href="https://t.me/vpn_gin_bot?start=trial">Получить</Button>
                   </div>
                   <div className={styles.tarrifs_item}>
                     <h2>До 10Мб/с</h2>
                     <h2>135 ₽ / мес.</h2>
-                    <Button target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
+                    <Button style={{padding: 7}} target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
                   </div>
                   <div className={styles.tarrifs_item}>
                     <h2>Для YouTube</h2>
                     <h2>350 ₽ / мес.</h2>
-                    <Button target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
+                    <Button style={{padding: 7}} target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
                   </div>
                 </div>
               </div>
