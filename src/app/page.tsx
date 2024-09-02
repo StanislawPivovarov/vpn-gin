@@ -248,6 +248,11 @@ export default function Home() {
                     <h2>350 ₽/мес.</h2>
                     <Button style={{padding: 7}} target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
                   </div>
+                  <div className={styles.tarrifs_item}>
+                    <h2>РФ 🇷🇺</h2>
+                    <h2>135 ₽/мес.</h2>
+                    <Button style={{padding: 7}} target="_blank" href="https://t.me/vpn_gin_bot?start=ruZTFo_DsH">Получить</Button>
+                  </div>
                 </div>
               </div>
             </div>
